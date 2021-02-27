@@ -1,7 +1,7 @@
 # Clicker
 First advanced project
 
-# Vertions
+# Versions
 - python 3.7
 - pygame 2.0.1
 
