@@ -69,9 +69,9 @@ BTN_CENTER = WIDTH//2 - BTN_WIDTH//2
 
 # ------------------------------------------------ MENU ACTIVITY ------------------------------------------------ # 
 MENU_ACTIVE = True
-MENU_MUSIC = VolumeSystem("music/menu_music.mp3")
+MENU_MUSIC = VolumeSystem("music/menu_music.wav")
 CLICK_SOUND = VolumeSystem("music/clicking.wav")
-CLICK_SOUND_BURN_OUT = VolumeSystem("music/match_burn_out.mp3")
+CLICK_SOUND_BURN_OUT = VolumeSystem("music/match_burn_out.wav")
 
 # ------------------------------------------------ BTNS SETUP ------------------------------------------------ #
 
