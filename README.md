@@ -1,5 +1,6 @@
 # Clicker
 First advanced project
+recomend: win 10, 1920x1080 16:9
 
 # Versions
 - python 3.7
