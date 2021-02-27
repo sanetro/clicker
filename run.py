@@ -28,10 +28,10 @@ MASTER = pygame.display.set_mode((WIDTH, HEIGHT))
 # ------------------------------------------------ TITLE AND ICON SETUP ------------------------------------------------ # 
 pygame.font.init()
 pygame.display.set_caption("Cigarettes Clicker")
-icon = pygame.image.load(os.path.join('images', 'icon.png'))
-title = pygame.image.load(os.path.join('images', 'title1.png'))
-title = pygame.transform.scale(title, (1024,454))
-pygame.display.set_icon(icon)
+#icon = pygame.image.load(os.path.join('images', 'icon.png'))
+#title = pygame.image.load(os.path.join('images', 'title1.png'))
+#title = pygame.transform.scale(title, (1024,454))
+#pygame.display.set_icon(icon)
 
 # ------------------------------------------------ COLORS AND THEMES ------------------------------------------------ # 
 COLOR_BACKGROUND_BLUE = (6, 21, 31)
@@ -69,9 +69,9 @@ BTN_CENTER = WIDTH//2 - BTN_WIDTH//2
 
 # ------------------------------------------------ MENU ACTIVITY ------------------------------------------------ # 
 MENU_ACTIVE = True
-MENU_MUSIC = VolumeSystem("menu_music.mp3", "music")
-CLICK_SOUND = VolumeSystem("clicking.wav", "music")
-CLICK_SOUND_BURN_OUT = VolumeSystem("match_burn_out.mp3", "music")
+MENU_MUSIC = VolumeSystem("music/menu_music.mp3")
+CLICK_SOUND = VolumeSystem("music/clicking.wav")
+CLICK_SOUND_BURN_OUT = VolumeSystem("music/match_burn_out.mp3")
 
 # ------------------------------------------------ BTNS SETUP ------------------------------------------------ #
 
