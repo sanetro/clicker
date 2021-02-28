@@ -1,0 +1,6 @@
+
+music 1
+color 0
+score 0
+curent_colume 0.1
+time_played 0 
